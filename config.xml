@@ -1,0 +1,13 @@
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="org.freeshell.mhocker.chipceasar" version="1.0.0">
+  <name>Chip Ceasar and the Secret Road to China</name>
+  <description>Interactive Fiction</description>
+  <author href="http://mhocker.freeshell.org" email="mhocker@freeshell.org">Matt Hocker</author>
+  <content src="index.html"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="android-minSdkVersion" value="14"/>
+  <plugin name="cordova-plugin-device" source="npm" spec="~1.1.3"/>
+  <icon src="img/icon.png"/>
+  <platform name="android">
+  <allow-intent href="market:*"/>
+  </platform>
+</widget>
