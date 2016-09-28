@@ -1,2 +1,2 @@
 # ChipCeasar
-This story is about Chip Ceasar
+This story is about Chip Ceasar.
